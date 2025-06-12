@@ -3,7 +3,6 @@ class Passenger {
     int age;
     String gender;
     String berth;
-    //String allotedBerth;
     String ticketId;
 
     public Passenger(String name, int age, String gender, String berth, String ticketId){
@@ -11,7 +10,6 @@ class Passenger {
         this.age=age;
         this.gender=gender;
         this.berth=berth;
-        //this.allotedBerth=" ";
         this.ticketId=ticketId;
     }
 
